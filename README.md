@@ -7,7 +7,7 @@ Bibliotecas Python: faker, pandas
 
 ## Execute
 git clone https://github.com/gregorygustavo80/fake_data.git
-pip install faker pandas
+### pip install faker pandas
 
 ## Como usar
 Clone este repositório ou baixe o script fake_data.py.
@@ -21,8 +21,7 @@ faker import Faker
 import pandas as pd
 
 fake = Faker('pt_BR')
-### Edite aqui a quantidade de dados gerados
-num_registros = 100
+num_registros = 100  ### Edite aqui a quantidade de dados gerados
 
 dados_fake = []
 
