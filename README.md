@@ -7,7 +7,7 @@ Bibliotecas Python: faker, pandas
 
 ## Execute
 git clone https://github.com/gregorygustavo80/fake_data.git
-### pip install faker pandas
+#### pip install faker pandas
 
 ## Como usar
 Clone este repositório ou baixe o script fake_data.py.
@@ -16,12 +16,13 @@ Execute o script Python fake_data.py.
 Um arquivo Excel chamado dados_fake.xlsx será gerado no mesmo diretório do script, contendo os dados falsos.
 
 ## Personalização
+### Edite aqui a quantidade de dados gerados
 
-faker import Faker
+### faker import Faker
 import pandas as pd
 
 fake = Faker('pt_BR')
-num_registros = 100  ### Edite aqui a quantidade de dados gerados
+num_registros = 100  
 
 dados_fake = []
 
